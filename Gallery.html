@@ -1,0 +1,212 @@
+<html>
+
+<head>
+    <style>
+        #outer {
+            width: 97vw;
+            min-height: 1170px;
+            border: 1px solid black;
+        }
+
+        #top {
+            height: 50px;
+            width: 100%;
+            background: #106eea;
+        }
+
+        .tpart {
+            height: 40px;
+            width: 33%;
+            text-align: center;
+            line-height: 40px;
+            color: white;
+            font-size: 18px;
+            float: left;
+        }
+
+        #header {
+            height: 30px;
+            width: 100%;
+        }
+
+        #logo {
+            height: 60px;
+            width: 10%;
+            float: left;
+            background: white;
+        }
+
+        #menu {
+            height: 60px;
+            width: 90%;
+            float: right;
+            background: white;
+        }
+
+        #menu ul li {
+            list-style-type: none;
+            float: right;
+            text-align: center;
+            margin-left: 5px;
+            width: 15%;
+
+            line-height: 33px;
+            transition: all ease 1s;
+            /* border: 1px solid black; */
+        }
+
+        #a {
+            margin-right: 15px;
+        }
+
+        #menu ul li:hover {
+            background-color: rgb(156, 137, 137);
+            border-radius: 5px;
+            transform: scale(1.1);
+            transition: all ease 1s;
+            color: white;
+        }
+
+        #menu ul li a {
+            color: black;
+            font-size: 20px;
+            text-decoration: none;
+        }
+
+        #menu ul li a:hover {
+            color: white;
+        }
+
+        #gallery {
+            min-height: 1000px;
+            width: 1240px;
+            background: #106eea;
+            box-sizing: border-box;
+            /* margin-bottom: 50px; */
+        
+         
+        }
+        h1{
+            padding-top: 45px;
+        }
+        #ginner {
+            height: 500px;
+            width: 1200px;
+        }
+
+        .r {
+            height: 300px;
+            width: 1200px;
+        }
+
+        .c {
+            height: 250px;
+            width: 350px;
+            float: left;
+            background: rgba(255, 255, 255, .8);
+            border: 1px solid white;
+            box-sizing: border-box;
+            margin: 25px;
+            padding: 15px;
+            box-shadow: 0px 0px 8px 2px black inset;
+            transform-style: preserve-3d;
+            transform: rotateY(20deg);
+        }
+
+        .c img {
+            height: 100%;
+            width: 100%;
+        }
+
+        .c img:hover {
+            filter: grayscale(100%);
+            transition: all ease 1s;
+            transform: perspective(500px) rotateX(360deg);
+
+        }
+        
+        #Footer {
+            height: 50px;
+            width: 100%;
+            background: black;
+            color: white;
+            padding-bottom: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="outer">
+        <div id="top">
+            <div class="tpart">
+                +91-9565264428
+            </div>
+            <div class="tpart">
+                Govt Girls polytechnic Ballia
+            </div>
+            <div class="tpart">
+                sv03259@gmail.com
+            </div>
+        </div>
+        <div id="header">
+            <div id="logo"> <img src="img/G.jpg" height="100%" width="100%" alt=""> </div>
+            <div id="menu">
+                <ul id="list">
+                   
+                    <li><a href="Login.html">Login</a></li>
+                    <li id="a"><a href="Aboutus.html">About us</a></li>
+                    <li><a href="Gallery.html">Gallery</a></li>
+                    <li><a href="rgistation.html">Registation</a></li>
+                    <li><a href="web page.html">Home</a></li>
+                </ul>
+            </div>
+        </div> 
+            
+            <div id="gallery">
+                <h1 id="su"style="color:white;text-align:center;">IMAGE GALLERY</h1>
+                <div id="ginner">
+                    <div class="r">
+                        <div class="c">
+                            <img src="img/images%20(3).jpg" />
+                        </div>
+                        <div class="c">
+                            <img src="img/s2.jpg" />
+                        </div>
+                        <div class="c">
+                            <img src="img/images%20(4).jpg" />
+                        </div>
+                    </div>
+                    <div class="r">
+                        <div class="c">
+                            <img src="img/s3.jpg" />
+                        </div>
+                        <div class="c">
+                            <img src="img/s5.jpg" />
+                        </div>
+                        <div class="c">
+                            <img src="img/images%20(11).jpg" />
+                        </div>
+                    </div>
+                    <div class="r">
+                        <div class="c">
+                            <img src="img/images%20(8).jpg" />
+                        </div>
+                        <div class="c">
+                            <img src="img/images%20(5).jpg" />
+                        </div>
+                        <div class="c">
+                            <img src="img/images%20(2).jpg" />
+                        </div>
+                    </div>
+            </div>
+            <div id="Footer">
+                <marquee>
+                    <h3>@ Govt Girls Polytechinc ballia @</h3>
+                </marquee>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

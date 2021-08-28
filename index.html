@@ -1,0 +1,331 @@
+<html>
+
+<head>
+    <style>
+        #outer {
+            width: 97vw;
+        }
+
+        #top {
+            height: 40px;
+            width: 100%;
+            background: #106eea;
+        }
+
+        .tpart {
+            height: 40px;
+            width: 33%;
+            text-align: center;
+            line-height: 40px;
+            color: white;
+            font-size: 18px;
+            float: left;
+        }
+
+        #header {
+            height: 30px;
+            width: 100%;
+        }
+
+        #logo {
+            height: 60px;
+            width: 10%;
+            float: left;
+            background: white;
+        }
+
+        #menu {
+            height: 60px;
+            width: 90%;
+            float: right;
+            background: white;
+        }
+
+        #menu ul li {
+            list-style-type: none;
+            float: right;
+            text-align: center;
+            margin-left: 5px;
+            width: 15%;
+
+            line-height: 33px;
+            transition: all ease 1s;
+            /* border: 1px solid black; */
+        }
+
+        #a {
+            margin-right: 15px;
+        }
+
+        #menu ul li:hover {
+            background-color: rgb(156, 137, 137);
+            border-radius: 5px;
+            transform: scale(1.1);
+            transition: all ease 1s;
+            color: white;
+        }
+
+        #menu ul li a {
+            color: black;
+            font-size: 20px;
+            text-decoration: none;
+        }
+
+        #menu ul li a:hover {
+            color: white;
+        }
+
+        #slider {
+            width: 100%;
+            height: 600px;
+            /* background: url(s2.jpg); */
+            animation: slider 10s ease infinite;
+            animation-direction: alternate;
+            background-size: cover;
+            margin-bottom: 25px;
+            /*            margin-right: 50px;*/
+        }
+
+        @keyframes slider {
+            0% {
+                background: url(img/s1.jpg);
+                background-size: cover;
+                background-attachment: fixed;
+            }
+
+            20% {
+                background: url(img/s2.jpg);
+                background-size: cover;
+                background-attachment: fixed;
+            }
+
+            40% {
+                background: url(img/s3.jpg);
+                background-size: cover;
+                background-attachment: fixed;
+            }
+
+            60% {
+                background: url(img/s4.jpg);
+                background-size: cover;
+                background-attachment: fixed;
+            }
+
+            80% {
+                background: url(img/s9.jpg);
+                background-size: cover;
+                background-attachment: fixed;
+            }
+
+            100% {
+                background: url(img/s1.jpg);
+                background-size: cover;
+                background-attachment: fixed;
+            }
+        }
+
+        #transp {
+            height: 100%;
+            width: 100%;
+            background-color: rgba(0, 0, 0, .4);
+        }
+
+        #sl1 {
+            font-size: 60px;
+            color: teal;
+            line-height: 600px;
+            text-align: center;
+            text-shadow: 2px 2px 8px rgb(241, 241, 233);
+        }
+
+        #sp {
+            border: 2px solid rgba(255, 255, 255, .4);
+            background-color: rgba(0, 0, 0, .5);
+            padding: 25px 60px;
+            border-radius: 15px;
+            color: white;
+        }
+
+        #sp:hover {
+            border: 2px solid rgba(0, 0, 0, .8);
+            background-color: rgba(255, 255, 255, .6);
+            padding: 25px 60px;
+            border-radius: 15px;
+            text-shadow: 2px 2px 8px rgb(235, 90, 98);
+            color: rgb(101, 107, 101);
+        }
+
+        #service {
+            min-height: 300px;
+            width: 100%;
+            background: #e4e4e4;
+            padding: 50px 100px;
+            box-sizing: border-box;
+        }
+
+        #service:img {
+            height: 40px;
+            width: 45px;
+        }
+
+        .s {
+            height: 200px;
+            width: 20%;
+            background: #0d47a1;
+            float: left;
+            box-shadow: 0px 0px 2px black;
+            margin: 0px 25px;
+            overflow: auto;
+            color: white;
+            padding: 5px 10px;
+            box-sizing: border-box;
+            text-align: justify;
+
+        }
+
+        #footer {
+            height: 50px;
+            color: white;
+            margin-top: 15px 0px;
+            background: black;
+
+        }
+
+        #Google {
+            height: 300px;
+            width: 100%;
+            background: ;
+            text-align: center;
+            color: brown;
+            margin-bottom: 111px;
+        }
+
+        #Content {
+            min-height: 600px;
+            width: 100%;
+            padding: 25px 50px;
+            background: #e4e4e4;
+            margin-top: 25px;
+            box-sizing: border-box;
+        }
+
+        #cleft {
+            width: 48%;
+            height: 500px;
+            float: left;
+            padding: 25px;
+            box-sizing: border-box;
+        }
+
+        #cleft img {
+            width: 100%;
+            height: 100%;
+        }
+
+        #cright {
+            width: 48%;
+            min-height: 500px;
+            float: left;
+            padding: 25px;
+            box-sizing: border-box;
+            text-align: justify;
+            font-size: 18px;
+        }
+
+
+        .s2u {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="outer">
+        <div id="top">
+            <div class="tpart">
+                +91-9565264428
+            </div>
+            <div class="tpart">
+                Govt Girls polytechnic Ballia
+                 </div>
+            <div class="tpart">
+                sv03259@gmail.com
+            </div>
+        </div>
+        <div id="header">
+            <div id="logo"> <img src="img/G.jpg" height="100%" width="100%" alt=""> </div>
+
+            <div id="menu">
+                <ul id="list">
+                    <li><a href="Login.html">Login</a></li>
+                    <li id="a"><a href="Aboutus.html">About us</a></li>
+                    <li><a href="Gallery.html">Gallery</a></li>
+                    <li><a href="rgistation.html">Registation</a></li>
+                    <li><a href="web page.html">Home</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <div id="slider">
+            <div id="transp">
+                <div id="sl1"><span id="sp">WELCOME TO OUR COLLEGE</span></div>
+                <div id="sl2"></div>
+            </div>
+        </div>
+        <div id="service">
+            <div class="s" style="background:#106eea;">
+                <!--            <h1 style="text-align:center;">IT</h1>-->
+                <img class="s2u" src="img/computer.jpg">
+            </div>
+            <div class="s" style="background:#106eea;">
+                <!--            <h1 style="text-align:center;">HEADING 1</h1>-->
+                <img class="s2u" src="img/banner3.jpg">
+            </div>
+            <div class="s" style="background:#106eea;">
+                <!--            <h1 style="text-align:center;">HEADING 1</h1>-->
+                <img class="s2u" src="img/it.jpg">
+            </div>
+            <div class="s" style="background:#106eea;">
+                <!--            <h1 style="text-align:center;">HEADING 1</h1>-->
+                <img class="s2u" src="img/img6.jpg">
+            </div>
+        </div>
+        <div id="content">
+            <div id="cleft">
+                <img src="img/p.jpg" />
+            </div>
+            <div id="cright">
+                <h1>ABOUT <b style="color:#106eea;">US</b></h1>
+                CareerURL.com is an online platform with in-depth information about Schools, Colleges, Universities and
+                various Academic Institutes in India, intended for the students at various levels of their academic
+                career.
+
+                We have a dedicated team based in south India. We endeavor to provide all-inclusive information on
+                various institutes, wide range of academic programmes available in India and timley updates on
+                admissions, examinations etc. This website has useful interactive features enabling the users to post
+                their clarification requests & to share their opinion, reviews, ratings etc.
+
+                Please note that, we don't run any agency services or never seek monetary compensation for any services
+                such as admissions & recruitment for 3rd parties.
+
+                We may be contacted through http://careerurl.com/contact/feedback
+            </div>
+        </div>
+
+        <div id="Google">
+            <h1>GOOGLE MAP</h1>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3592.8597480524345!2d84.15847141466213!3d25.775195714333275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399264f9116f3345%3A0x6ab54f29875a3ca2!2sGovt.%20Girls%20Polytechnic%20Ballia!5e0!3m2!1sen!2sin!4v1624287531167!5m2!1sen!2sin"
+                width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div id="footer">
+            <marquee behavior="alternate">
+                <h3>@ Govt Girls Polytechnic Ballia</h3>
+            </marquee>
+        </div>
+
+    </div>
+</body>
+
+</html>
